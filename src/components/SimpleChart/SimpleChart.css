@@ -1,0 +1,52 @@
+.chart {
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 1px solid #2f2f2f;
+	border-radius: 10px;
+}
+
+.chart__title {
+	margin: 0;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 1.1;
+}
+
+.chart__no-data {
+	margin: 20px 0;
+	font-size: 16px;
+	line-height: 1.1;
+}
+
+.chart__list {
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 1fr);
+	grid-template-rows: 1fr;
+	gap: 10px;
+	align-items: end;
+	justify-content: start;
+	box-sizing: border-box;
+	grid-auto-flow: column;
+	/*overflow: scroll;*/
+}
+
+.chart__position {
+	min-width: 45px;
+	background-color: #468ec1;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	max-width: 110px;
+	padding: 3px;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.1;
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+	overflow: hidden;
+}
